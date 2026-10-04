@@ -71,8 +71,9 @@ Create a `.env` file (see `.env.example`):
 ```env
 PORT=5000
 NODE_ENV=development
-MONGODB_URI=mongodb+srv://your_user:your_pass@cluster.mongodb.net/finance_management
+MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key_here
+GOOGLE_CLIENT_ID=your_google_client_id
 GEMINI_API_KEY=your_gemini_api_key
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_key
